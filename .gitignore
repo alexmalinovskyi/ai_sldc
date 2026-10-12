@@ -1,0 +1,26 @@
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.crt
+credentials*.json
+secrets*.json
+.mcp.json
+.npmrc
+.netrc
+
+# Local Claude Code settings (machine-specific permissions)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# OS / editor / logs
+.DS_Store
+*.log
+.idea/
+.vscode/
+node_modules/
